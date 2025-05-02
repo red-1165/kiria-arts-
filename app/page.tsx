@@ -17,7 +17,7 @@ export default function Home() {
             <div className="rounded-full bg-maroon-600 w-8 h-8 flex items-center justify-center">
               <span className="text-amber-200 font-serif text-lg">A</span>
             </div>
-            <span className="font-serif text-xl font-medium tracking-wide text-maroon-700">Artistry</span>
+            <span className="font-serif text-xl font-medium tracking-wide text-maroon-700">Kiria</span>
           </Link>
           <nav className="hidden md:flex gap-6 items-center">
             <Link href="/" className="text-sm font-medium text-maroon-700 hover:text-maroon-900">
@@ -71,7 +71,7 @@ export default function Home() {
           <div className="container relative grid gap-8 md:grid-cols-2 items-center">
             <div className="space-y-6 text-center md:text-left">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-serif font-bold tracking-tight text-amber-100">
-                Discover Unique <span className="text-amber-300">Artistry</span>
+                Discover Unique <span className="text-amber-300">Kiria</span>
               </h1>
               <p className="text-lg md:text-xl text-amber-200/90 max-w-md mx-auto md:mx-0">
                 Explore our curated collection of original paintings from talented artists around the world.
@@ -231,7 +231,7 @@ export default function Home() {
                 <div className="rounded-full bg-amber-200 w-8 h-8 flex items-center justify-center">
                   <span className="text-maroon-800 font-serif text-lg">A</span>
                 </div>
-                <span className="font-serif text-xl font-medium tracking-wide text-amber-100">Artistry</span>
+                <span className="font-serif text-xl font-medium tracking-wide text-amber-100">Kiria</span>
               </Link>
               <p className="text-sm">
                 Connecting art lovers with unique original paintings from talented artists around the world.
@@ -373,7 +373,7 @@ export default function Home() {
             </div>
           </div>
           <div className="border-t border-amber-100/10 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
-            <p className="text-sm">© {new Date().getFullYear()} Artistry. All rights reserved.</p>
+            <p className="text-sm">© {new Date().getFullYear()} Kiria. All rights reserved.</p>
             <div className="flex gap-4 mt-4 md:mt-0">
               <Link href="/terms" className="text-sm hover:text-amber-200">
                 Terms
