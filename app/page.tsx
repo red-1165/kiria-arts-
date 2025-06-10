@@ -27,7 +27,7 @@ export default function Home() {
               Gallery
             </Link>
             <Link href="/artists" className="text-sm font-medium text-maroon-700 hover:text-maroon-900">
-              Artists
+              Artist
             </Link>
             <Link href="/about" className="text-sm font-medium text-maroon-700 hover:text-maroon-900">
               About
