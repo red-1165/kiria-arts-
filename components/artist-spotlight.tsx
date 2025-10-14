@@ -11,7 +11,7 @@ export default function ArtistSpotlight() {
         <div className="aspect-square max-w-md mx-auto relative">
           <Image
             src="/placeholder.svg?height=600&width=600"
-            alt="Elena Alvarez"
+            alt="Pavithra Selvaraj"
             fill
             className="object-cover rounded-full border-8 border-amber-200/30"
           />
@@ -34,13 +34,14 @@ export default function ArtistSpotlight() {
       </div>
       <div className="space-y-6">
         <div>
-          <h3 className="text-2xl font-serif font-bold text-maroon-800">Elena Alvarez</h3>
-          <p className="text-maroon-600">Contemporary Abstract Artist</p>
+          <h3 className="text-2xl font-serif font-bold text-maroon-800">Pavithra Selvaraj</h3
         </div>
         <p className="text-maroon-700">
-          Elena Alvarez is known for her vibrant abstract compositions that blend traditional techniques with
-          contemporary vision. Her work explores the relationship between color, emotion, and memory, creating pieces
-          that resonate on a deeply personal level.
+          I’m an artist passionate about blending tradition and creativity through my work.
+          I specialize in Thanjavur paintings, resin art, and canvas paintings, bringing vibrant colors and intricate details to life. 
+          Each piece I create reflects a balance of cultural richness and modern aesthetics.
+          I also design customized refrigerator magnets, adding a personal and artistic touch to everyday spaces. 
+          Whether it’s a traditional Thanjavur masterpiece or a contemporary resin creation, my goal is to craft art that tells a story and leaves a lasting impression.
         </p>
         <blockquote className="border-l-4 border-amber-400 pl-4 italic text-maroon-700">
           "Art is my way of translating the invisible emotions we all experience into something tangible and shared."
@@ -50,7 +51,7 @@ export default function ArtistSpotlight() {
             <Button className="bg-maroon-700 hover:bg-maroon-800 text-amber-50">View Artist Profile</Button>
           </Link>
           <Link
-            href="https://wa.me/1234567890?text=I'm interested in Elena Alvarez's artwork"
+            href="https://wa.me/918951223940?text=I'm interested in Pavithra Selvaraj's artwork"
             target="_blank"
             rel="noopener noreferrer"
           >
