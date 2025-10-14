@@ -15,11 +15,10 @@ export default function GalleryPage() {
   const artworks = [
     {
       id: 1,
-      title: "Golden Sunset",
-      artist: "Maria Rodriguez",
+      title: "Ganesha",
       price: 850,
-      image: "/placeholder.svg?height=600&width=500",
-      category: "Landscape",
+      image: "/ganesha.png?height=600&width=500",
+      category: "Keychain",
       medium: "Oil on Canvas",
       size: '24" x 36"',
       isSold: false,
@@ -28,11 +27,10 @@ export default function GalleryPage() {
     },
     {
       id: 2,
-      title: "Abstract Dreams",
-      artist: "James Wilson",
+      title: "Lakshmi",
       price: 1200,
-      image: "/placeholder.svg?height=600&width=500",
-      category: "Abstract",
+      image: "/lakshmi.png?height=600&width=500",
+      category: "Keychain",
       medium: "Acrylic on Canvas",
       size: '30" x 40"',
       isSold: false,
@@ -41,10 +39,9 @@ export default function GalleryPage() {
     },
     {
       id: 3,
-      title: "Crimson Memories",
-      artist: "Elena Alvarez",
+      title: "flower",
       price: 950,
-      image: "/placeholder.svg?height=600&width=500",
+      image: "/flowers.png?height=600&width=500",
       category: "Abstract",
       medium: "Mixed Media",
       size: '24" x 24"',
@@ -54,11 +51,10 @@ export default function GalleryPage() {
     },
     {
       id: 4,
-      title: "Autumn Whispers",
-      artist: "David Chen",
+      title: "rakhi gift",
       price: 1100,
-      image: "/placeholder.svg?height=600&width=500",
-      category: "Landscape",
+      image: "/rakhi.png?height=600&width=500",
+      category: "resin",
       medium: "Oil on Canvas",
       size: '36" x 48"',
       isSold: true,
@@ -195,8 +191,8 @@ export default function GalleryPage() {
                       <div className="pt-6 px-2">
                         <Slider defaultValue={[200, 1500]} min={100} max={2000} step={50} />
                         <div className="flex justify-between mt-2 text-sm text-maroon-700">
-                          <span>$100</span>
-                          <span>$2000+</span>
+                          <span>Rs.100</span>
+                          <span>Rs.2000+</span>
                         </div>
                       </div>
                     </div>
