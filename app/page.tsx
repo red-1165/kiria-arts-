@@ -67,7 +67,7 @@ export default function Home() {
         <section className="relative py-20 md:py-28 overflow-hidden bg-gradient-to-br from-maroon-900 via-maroon-800 to-maroon-900">
           <div className="absolute inset-0 opacity-10">
             <Image
-              src="/placeholder.svg?height=1080&width=1920"
+              src="/lakshmi.png"
               alt="Background texture"
               fill
               className="object-cover"
@@ -98,7 +98,7 @@ export default function Home() {
             <div className="relative aspect-square max-w-md mx-auto">
               <div className="absolute inset-0 rounded-2xl overflow-hidden shadow-2xl border-4 border-amber-200/20 transform rotate-3">
                 <Image
-                  src="/placeholder.svg?height=800&width=800"
+                  src="/ganesha.png"
                   alt="Featured artwork"
                   fill
                   className="object-cover"
@@ -210,7 +210,7 @@ export default function Home() {
               <div className="relative">
                 <div className="aspect-[4/5] rounded-xl overflow-hidden shadow-xl border-8 border-white">
                   <Image
-                    src="/placeholder.svg?height=1000&width=800"
+                    src="/rakhi.png"
                     alt="Art in home setting"
                     fill
                     className="object-cover"
