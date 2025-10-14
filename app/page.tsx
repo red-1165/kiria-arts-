@@ -80,7 +80,7 @@ export default function Home() {
                 Discover Unique <span className="text-amber-300">Kiria</span>
               </h1>
               <p className="text-lg md:text-xl text-amber-200/90 max-w-md mx-auto md:mx-0">
-                Explore our curated collection of original paintings from talented artists around the world.
+                Explore our curated collection of original paintings.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
                 <Button size="lg" className="bg-amber-500 hover:bg-amber-600 text-maroon-900 font-medium">
@@ -107,12 +107,12 @@ export default function Home() {
               <div className="absolute -bottom-6 -left-6 bg-amber-100 p-4 rounded-lg shadow-lg max-w-xs">
                 <div className="flex items-start gap-3">
                   <div className="rounded-full bg-maroon-100 w-10 h-10 flex items-center justify-center shrink-0">
-                    <span className="text-maroon-700 font-serif text-sm">EA</span>
+                    <span className="text-maroon-700 font-serif text-sm">PS</span>
                   </div>
                   <div>
                     <h3 className="font-medium text-maroon-900">"Autumn Whispers"</h3>
-                    <p className="text-sm text-maroon-700">by Elena Alvarez</p>
-                    <p className="text-sm font-medium text-maroon-900 mt-1">$1,250</p>
+                    <p className="text-sm text-maroon-700">by Pavithra Selvaraj</p>
+                    <p className="text-sm font-medium text-maroon-900 mt-1">Rs.1,250</p>
                   </div>
                 </div>
               </div>
@@ -172,7 +172,7 @@ export default function Home() {
                     <div>
                       <h3 className="font-medium text-maroon-900 text-lg">Browse Our Collection</h3>
                       <p className="text-maroon-700">
-                        Explore our curated gallery of original artworks from talented artists.
+                        Explore our curated gallery of original artworks.
                       </p>
                     </div>
                   </div>
@@ -234,13 +234,19 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
             <div className="space-y-4">
               <Link href="/" className="flex items-center gap-2">
-                <div className="rounded-full bg-amber-200 w-8 h-8 flex items-center justify-center">
-                  <span className="text-maroon-800 font-serif text-lg">A</span>
+                <div className="rounded-full overflow-hidden w-8 h-8 flex items-center justify-center">
+                  <Image
+                    src="/kiria-arts-logo.jpg"
+                    alt="Kiria Arts Logo"
+                    width={32}
+                    height={32}
+                    className="object-cover"
+                  />
                 </div>
-                <span className="font-serif text-xl font-medium tracking-wide text-amber-100">Kiria</span>
+                <span className="font-serif text-xl font-medium tracking-wide text-maroon-700">Kiria</span>
               </Link>
               <p className="text-sm">
-                Connecting art lovers with unique original paintings from talented artists around the world.
+                Connecting art lovers with unique original paintings.
               </p>
             </div>
             <div>
