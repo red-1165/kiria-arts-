@@ -95,28 +95,6 @@ export default function Home() {
                 </Button>
               </div>
             </div>
-            <div className="relative aspect-square max-w-md mx-auto">
-              <div className="absolute inset-0 rounded-2xl overflow-hidden shadow-2xl border-4 border-amber-200/20 transform rotate-3">
-                <Image
-                  src="/ganesha.png"
-                  alt="Featured artwork"
-                  fill
-                  className="object-cover"
-                />
-              </div>
-              <div className="absolute -bottom-6 -left-6 bg-amber-100 p-4 rounded-lg shadow-lg max-w-xs">
-                <div className="flex items-start gap-3">
-                  <div className="rounded-full bg-maroon-100 w-10 h-10 flex items-center justify-center shrink-0">
-                    <span className="text-maroon-700 font-serif text-sm">PS</span>
-                  </div>
-                  <div>
-                    <h3 className="font-medium text-maroon-900">"Autumn Whispers"</h3>
-                    <p className="text-sm text-maroon-700">by Pavithra Selvaraj</p>
-                    <p className="text-sm font-medium text-maroon-900 mt-1">Rs.1,250</p>
-                  </div>
-                </div>
-              </div>
-            </div>
           </div>
         </section>
 
