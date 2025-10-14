@@ -17,7 +17,7 @@ export default function GalleryPage() {
       id: 1,
       title: "Ganesha",
       price: 850,
-      image: "/ganesha.png"
+      image: "/ganesha.png",
       category: "Keychain",
       medium: "Oil on Canvas",
       size: '24" x 36"',
