@@ -24,7 +24,7 @@ export default function GalleryPage() {
       size: '24" x 36"',
       isSold: false,
       isNew: true,
-      whatsapp: "+1234567890",
+      whatsapp: "+918951223940",
     },
     {
       id: 2,
@@ -37,7 +37,7 @@ export default function GalleryPage() {
       size: '30" x 40"',
       isSold: false,
       isNew: false,
-      whatsapp: "+1234567890",
+      whatsapp: "+918951223940",
     },
     {
       id: 3,
@@ -50,7 +50,7 @@ export default function GalleryPage() {
       size: '24" x 24"',
       isSold: false,
       isNew: true,
-      whatsapp: "+1234567890",
+      whatsapp: "+918951223940",
     },
     {
       id: 4,
@@ -63,7 +63,7 @@ export default function GalleryPage() {
       size: '36" x 48"',
       isSold: true,
       isNew: false,
-      whatsapp: "+1234567890",
+      whatsapp: "+918951223940",
     },
     {
       id: 5,
@@ -76,7 +76,7 @@ export default function GalleryPage() {
       size: '18" x 24"',
       isSold: false,
       isNew: false,
-      whatsapp: "+1234567890",
+      whatsapp: "+918951223940",
     },
     {
       id: 6,
@@ -89,7 +89,7 @@ export default function GalleryPage() {
       size: '30" x 30"',
       isSold: false,
       isNew: true,
-      whatsapp: "+1234567890",
+      whatsapp: "+918951223940",
     },
     {
       id: 7,
@@ -102,7 +102,7 @@ export default function GalleryPage() {
       size: '40" x 60"',
       isSold: false,
       isNew: false,
-      whatsapp: "+1234567890",
+      whatsapp: "+918951223940",
     },
     {
       id: 8,
@@ -115,7 +115,7 @@ export default function GalleryPage() {
       size: '20" x 24"',
       isSold: false,
       isNew: false,
-      whatsapp: "+1234567890",
+      whatsapp: "+918951223940",
     },
   ]
 
