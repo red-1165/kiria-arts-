@@ -267,12 +267,17 @@ export default function GalleryPage() {
                             <Link href={`/artwork/${artwork.id}`} className="hover:underline underline-offset-2">
                               <h3 className="font-medium text-maroon-900">{artwork.title}</h3>
                             </Link>
+                           {artwork.artist ? (
                             <Link
                               href={`/artist/${artwork.artist.toLowerCase().replace(" ", "-")}`}
                               className="text-sm text-maroon-700 hover:text-maroon-900"
                             >
                               by {artwork.artist}
                             </Link>
+                          ) : (
+                            <span className="text-sm text-maroon-700">by Unknown Artist</span>
+                          )}
+
                           </div>
                           <p className="font-medium text-maroon-900">${artwork.price}</p>
                         </div>
