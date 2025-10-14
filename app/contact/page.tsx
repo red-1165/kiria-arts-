@@ -100,8 +100,8 @@ export default function ContactPage() {
                       <MapPin className="h-5 w-5 text-maroon-600 mt-0.5" />
                       <div>
                         <h3 className="font-medium text-maroon-900">Our Gallery</h3>
-                        <p className="text-maroon-700">123 Art Street, Creative District</p>
-                        <p className="text-maroon-700">New York, NY 10001</p>
+                        <p className="text-maroon-700">Kiria arts ,babusapalya</p>
+                        <p className="text-maroon-700">bangalore</p>
                       </div>
                     </div>
                     <div className="flex items-start gap-3">
@@ -109,7 +109,7 @@ export default function ContactPage() {
                       <div>
                         <h3 className="font-medium text-maroon-900">Email Us</h3>
                         <a href="mailto:info@artistry.com" className="text-maroon-700 hover:text-maroon-900">
-                          info@artistry.com
+                          kiriaarts.info@gmail.com
                         </a>
                       </div>
                     </div>
@@ -117,8 +117,8 @@ export default function ContactPage() {
                       <Phone className="h-5 w-5 text-maroon-600 mt-0.5" />
                       <div>
                         <h3 className="font-medium text-maroon-900">Call Us</h3>
-                        <a href="tel:+12125551234" className="text-maroon-700 hover:text-maroon-900">
-                          +1 (212) 555-1234
+                        <a href="tel:+918951223940" className="text-maroon-700 hover:text-maroon-900">
+                          +91 8951223940
                         </a>
                       </div>
                     </div>
@@ -127,12 +127,12 @@ export default function ContactPage() {
                       <div>
                         <h3 className="font-medium text-maroon-900">WhatsApp</h3>
                         <a
-                          href="https://wa.me/12125551234"
+                          href="https://wa.me/918951223940"
                           target="_blank"
                           rel="noopener noreferrer"
                           className="text-green-600 hover:text-green-700"
                         >
-                          +1 (212) 555-1234
+                          +91 8951223940
                         </a>
                         <p className="text-sm text-maroon-600 mt-1">Fastest response time!</p>
                       </div>
@@ -169,7 +169,7 @@ export default function ContactPage() {
                     For the fastest response, connect with our art consultants directly via WhatsApp.
                   </p>
                   <Link
-                    href="https://wa.me/12125551234?text=I'm interested in learning more about your art collection"
+                    href="https://wa.me/918951223940?text=I'm interested in learning more about your art collection"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
