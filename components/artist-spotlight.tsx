@@ -34,7 +34,7 @@ export default function ArtistSpotlight() {
       </div>
       <div className="space-y-6">
         <div>
-          <h3 className="text-2xl font-serif font-bold text-maroon-800">Pavithra Selvaraj</h3
+          <h3 className="text-2xl font-serif font-bold text-maroon-800">Pavithra Selvaraj</h3>
         </div>
         <p className="text-maroon-700">
           I’m an artist passionate about blending tradition and creativity through my work.
