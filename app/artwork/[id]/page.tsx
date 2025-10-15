@@ -20,7 +20,7 @@ export default function ArtworkPage({ params }: { params: { id: string } }) {
     size: '24" x 36"',
     year: 2023,
     description:
-      "A stunning landscape capturing the golden hues of a sunset over rolling hills. This piece evokes a sense of peace and tranquility, with warm colors that bring comfort to any space.",
+      "Available in customizable dimensions:",
     artistBio:
       "Maria Rodriguez is a contemporary landscape artist known for her vibrant use of color and emotional depth. Her work has been featured in galleries across Europe and North America.",
     isSold: false,
